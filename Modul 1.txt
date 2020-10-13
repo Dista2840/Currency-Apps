@@ -1,0 +1,70 @@
+LATIHAN 
+1.Review kembali percobaan 1 sampai dengan 3 dengan menjawab pertanyaan-pertanyaan 
+pada latihan tersebut.
+
+Percobaan 1 
+
+4.Jalankan aplikasi dengan shortcut ctrl+f5, masukkan sembarang angka dan
+  tulisan lalu klik tombol Hitung. Apa yang terjadi pada aplikasi?
+  jawab : ketika kita menginputkan angka / huruf di textbox maka hasilnya
+          akan di lempar ke resultlabel.
+  misal : ketika input angka 1 maka hasil hitungnya akan 1 , jika huruf a
+	  maka hasil hitungnya akan a
+
+
+Percobaan 2
+
+2.Jalankan aplikasi dengan shortcut ctrl+f5, masukkan sembarang angka lalu
+  klik tombol Hitung. Apa yang terjadi pada aplikasi?
+  jawab : ketika kita meniginputkan angka 1 di textbox maka hasilnya akan
+  	  15000. rumus sudah tertera di coding. 
+	  "resultLabel.Content = Convert.ToString(nominalDouble * 15000);"
+
+3.Jalankan aplikasi dengan shortcut ctrl+f5, masukkan sembarang huruf lalu
+  klik tombol Hitung. Apa yang terjadi pada aplikasi?
+  jawab : ketika input huruf a maka hasil hitungnya pada aplikasi akan crash
+	  karena string tidak bisa diconvert menjadi double
+
+
+Percobaan 3
+
+2.Jalankan aplikasi dengan shortcut ctrl+f5, masukkan sembarang angka lalu 
+  klik tombol Hitung. Apa yang terjadi pada aplikasi?
+  Jawab : ketika kita meniginputkan angka 1 di textbox maka hasilnya akan
+  	  15000.	
+
+3.jalankan aplikasi dengan shortcut ctrl+f5, masukkan sembarang huruf lalu
+  klik tombol Hitung. Apa yang terjadi pada aplikasi?
+  jawab :ketika input huruf a di textbox maka hasil hitungnya akan muncul 
+	 "invalid"
+
+Percobaan 4
+
+4.Jalankan aplikasi dengan shortcut ctrl+f5, masukkan sembarang angka dan
+  tulisan lalu klik tombol Hitung. Apa yang terjadi pada aplikasi?
+  jawab : ketika input angka 1 di textbox maka hasilnya akan 15000
+	  ketika input sembarang huruf maka akan muncul "invalid"
+
+
+------------------------------------------------------------------------
+
+2.Mengapa perlu membuat class CurrencyController.cs pada percobaan 4 ?
+  karena dibedakan logika hitung dan logika control tampilan .
+
+3.Jelaskan kegunaan method isAllowed pada percobaan 4!
+  metode tersebut untuk mengijinkan segala sesuatunya yang di input.
+  jika tidak menggunakan method tersebut maka inputan tidak di ijinkan.
+  sebagai contoh pada kasus percobaan 4 input angka di ijinkan maka akan
+  melalui step berikutnya untuk di seleksi, jika input huruf maka tidak di 
+  ijinkan ( invalid ) 
+
+4.Jelaskan secara singkat mengenai Regex pada percobaan 4!
+  memeriksa sebuah string cocok dengan (nominal) atau tidak 
+
+
+5.Buatlah class diagramnya pada percobaan 4!
+   
+  
+
+         
+
